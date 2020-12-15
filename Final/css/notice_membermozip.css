@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+     box-sizing: border-box;
+     font-family: 'Noto Sans KR', sans-serif;
+ }
+ 
+ #header{
+     width: 1124px;
+     
+     margin: 0 auto;   
+ }
+ .clearfix::after{
+    content: ' ';
+    display: block;
+    clear: both;
+}
+#header .gnb > a{ display: inline-block; vertical-align: middle; font-size: 16px; color: #707070; text-decoration: none;}
+#header .gnb > a:not(last-child){ margin-right: 45px; } 
+#header .gnb > a:not(:first-child):hover{ border-bottom: 1px solid #1d1d1d; color: #1d1d1d;}
+#header .gnb > a:active { color: YELLOW; } /* 클릭된 상태의 하이퍼링크 효과 */
+#header .gnb > a:focus { color: ORANGE; } /* 포커스를 받은 하이퍼링크 효과 */
+.util {  float: right; height: 80px;}
+.util a{ line-height: 80px; text-decoration: none; font-size: 15px; color: #707070;}
+
+
+/*필터 */
+
+.filter{ margin: 0 auto; width: 1124px; height: 63px; border: .7px solid #dcdcdc; }
+.filter_img{float: left; scale: 70%;}
+.nav_bar{ float: left; }
+.dropbtn{
+    width: 124px;
+    height: 63px;
+    background-color:#fff;
+    color:#707070;
+   
+    font-size:16px;
+    border: .5px solid #dcdcdc;
+    cursor:pointer;
+}
+.dropdown{ position: relative; display:inline-block; }
+.dropdown_cont{ display: none; position: absolute; 
+    background-color: #f9f9f9; min-width: 124px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index:1; }
+.dropdown_cont a { color: black; padding: 12px 16px; text-decoration: none;
+    display: block; }
+.dropdown_cont a:hover{background-color: #f1f1f1; }
+.dropdown:hover .dropdown_cont { display:block; }
+.dropdown:hover .dropbtn{ background-color: #dadada;}
+
+/*필터 끝*/
+
+
+
+
+.content{ width:1124px; margin:0 auto; }
+.content .cont_team { margin: 0 auto;  }
+.cont_team_card:hover{box-shadow: 5px 5px 5px rgb(0,0,0,0.1) }
+.cont_team_subtit{  text-align: center; margin:0 auto; padding-bottom: 63px; margin-bottom: 30px; }
+.content .cont_team .cont_team_card { margin-bottom: 10px; width:363px; height: 452px; border: .5px solid #dcdcdc;}
+.content .cont_team .cont_team_card .img_card { width:363px; height: 180px; background-image: url(../images/img_card.jpg);
+        background-position:center center ; background-repeat:no-repeat; background-size :cover;}
+.content .cont_team .text_area {padding: 0px 17px;}
+.content .cont_team .text_area a { text-decoration: none;}
+.content .cont_team .text_area a h2{ font-size: 27px; font-weight: bold; color: #555353; margin-top: 17px;}
+.content .cont_team .text_area a p { font-size: 15px; font-weight: thin; color: #707070; margin-top: 6px;}
+.content .cont_team .text_area a h3 { font-size: 22px; color: #555353; margin-top: 25px;}
+
+.cont_info{ position: relative; top:70px;} 
+.cont_info a {color: #969696;}
+.hit_number{ margin-right:8px; float: left; }
+.comment{ float: left; }
+.bookmark{ float: right; }
+
+.cont_box1, .cont_box2, .cont_box3{ float: left;}
+.cont_box1, .cont_box2{ margin-right: 10px;}
