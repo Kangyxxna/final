@@ -28,7 +28,7 @@
 
 
 .helper{ vertical-align: middle; display: inline-block; height: 100%; /*width: 5px; background-color: red;*/}
-.co_banner{ background-image:url(../images/img_card.jpg) ;
+.co_banner{ background-image:url(img_card.jpg) ;
     background: rgba(0,0,0,0.03);
     background-repeat: no-repeat;
     background-position: center center;
@@ -73,7 +73,7 @@
     margin-right:  auto;}
     
 .comment_box .profile{ display:inline-block; font-size: 19px;
-    background-image: url(../images/profile_2.png) no-repeat;
+    background-image: url(profile_2.png) no-repeat;
     background-size: 17px; padding-left: 10px; 
 }
 .input_box{ display: block;
