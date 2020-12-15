@@ -60,7 +60,7 @@
 .cont_team_card:hover{box-shadow: 5px 5px 5px rgb(0,0,0,0.1) }
 .cont_team_subtit{  text-align: center; margin:0 auto; padding-bottom: 63px; margin-bottom: 30px; }
 .content .cont_team .cont_team_card { margin-bottom: 10px; width:363px; height: 452px; border: .5px solid #dcdcdc;}
-.content .cont_team .cont_team_card .img_card { width:363px; height: 180px; background-image: url(../images/img_card.jpg);
+.content .cont_team .cont_team_card .img_card { width:363px; height: 180px; background-image: url(img_card.jpg);
         background-position:center center ; background-repeat:no-repeat; background-size :cover;}
 .content .cont_team .text_area {padding: 0px 17px;}
 .content .cont_team .text_area a { text-decoration: none;}
