@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+     box-sizing: border-box;
+     font-family: 'Noto Sans KR', sans-serif;
+ }
+ 
+ .header{
+     width: 1124px;
+     
+     margin: 0 auto;
+ }
+ 
+ .clearfix::after{
+    content: ' ';
+    display: block;
+    clear: both;
+}
+
+hr{ display: block; width: 749px; height: 0;border: none;}
+ 
+
+
+ .header > div.logo {background-image: url(../images/logo.png) no-repeat;}
+ .header .logo .gnb > p{ float: left; }
+
+
+ .header .gnb > a{ display: inline-block; vertical-align: middle; font-size: 16px; color: #707070; margin-right: 70px; text-decoration: none;}
+ .header .gnb > a:not(last-child){ margin-right: 45px; } 
+ .header .gnb > a:not(:first-child):hover{ border-bottom: 1px solid #1d1d1d; color: #1d1d1d;}
+ .header .gnb > a:active { color: YELLOW; } /* 클릭된 상태의 하이퍼링크 효과 */
+ .header .gnb > a:focus { color: ORANGE; } /* 포커스를 받은 하이퍼링크 효과 */
+
+ .util {  float: right; height: 80px;}
+ .util a{ line-height: 80px; text-decoration: none; font-size: 15px; color: #707070;}
+
+ .content{ width: 749px; margin: 0 auto;}
+ .srch_box{ position: relative; vertical-align: middle; height:55px ; width: 749px; border: .5px solid #dcdcdc;}
+ .tbox{ padding-left: 10px; width: 650px; border: none; font-size: 13px; }
+ .srch_btn{ position: relative;  }
+ .srch_btn > img{  position: relative; left: 50px; display: inline-block; vertical-align: middle; }
+ .helper{ /*width: 3px; background-color: red; */  display: inline-block; vertical-align: middle; height: 100%;}
+
+ .group{ padding-top: 5px; list-style-type: none; width: 749px; margin: 0 auto;}
+  
+ .group li { padding: 14px 16px; width: 749px; border: .5px solid #dcdcdc;}
+ .group li a { text-decoration: none; color:#707070 }
+ .group li a p > .picture { vertical-align: middle; float: left; margin-right:10px; line-height: 25px;}
+ .group li a p > .nickname{ font-size: 16px; color:inherit; font-weight: bold; line-height: 25px;}
+ .group li a p.time{ display: inline-block; line-height: 25px;}
+ .time{ float: right;}
+ .text_area{ margin-top: 10px; }
+
+ .group .article > p.count_group { margin-top:10px;}
+ .group .article > p.count_group > span{ display: inline-block; margin-right:8px; 
+    padding-left:24px; font-size:12px; background-repeat: no-repeat; }
+ .group .article > p.count_group > span.like_count{ background-image: url(../images/like.png);}
+ .group .article > p.count_group > span.comment_count{ background-image: url(../images/comment_line.png);}
+ .group li:hover{ background-color: rgba(0, 0, 0, 0.05);}
+
